@@ -18,7 +18,7 @@ Now in claude:
 ```$ <your_text_editor> ~/Library/Application\ Support/Claude/claude_desktop_config.json```
 If you use windows:
 ```$ <your_text_editor> $env:AppData\Claude\claude_desktop_config.json```
-Paste the following and write:
+Paste the following and write to file:
 ```{
   "mcpServers": {
     "weather": {
