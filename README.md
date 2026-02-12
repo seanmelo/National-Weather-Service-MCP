@@ -2,6 +2,10 @@
 
 This is my first MCP server created using documentation from <https://modelcontextprotocol.io/docs/>
 
+It uses the NWS API to get real-time National Weather Service forecasts and alerts, using them as context for the model's output.
+
+![Demo](.github/demo.png)
+
 To run this MCP server, you must install uv and initialize a venv
 
 ```curl -LsSf https://astral.sh/uv/install.sh | sh```
