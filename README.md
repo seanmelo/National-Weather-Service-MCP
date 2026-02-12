@@ -1,6 +1,6 @@
 # NWS MCP Server
 
-Built referencing docs from [modelcontextprotocol.io]<https://modelcontextprotocol.io/docs/>
+Built referencing docs from [modelcontextprotocol.io](https://modelcontextprotocol.io/docs/)
 
 It uses the NWS API to get real-time National Weather Service forecasts and alerts, using them as context for the model's output.
 
