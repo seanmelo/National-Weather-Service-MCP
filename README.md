@@ -32,4 +32,4 @@ Paste the following and write to file:
 }
 ```
 
-Now ```$ uv run weather.py```
+Now ```uv run weather.py```
