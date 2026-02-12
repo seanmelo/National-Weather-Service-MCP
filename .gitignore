@@ -5,15 +5,8 @@ build/
 dist/
 wheels/
 *.egg-info
-.python-version
-pyproject.toml
-
 # Virtual environments
 .venv
-
-# uv
-uv.lock
-
 # DS Store
 .DS_Store
 

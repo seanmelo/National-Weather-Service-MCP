@@ -8,16 +8,14 @@ $ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 In the weather directory:
 ```
-$ uv init
-$ uv venv
-$ source .venv/bin/activate
-$ uv add "mcp[cli]" httpx
+uv sync
+source .venv/bin/activate
 ```
 
 Now in claude:
-```$ <your_text_editor> ~/Library/Application\ Support/Claude/claude_desktop_config.json```
+```<your_text_editor> ~/Library/Application\ Support/Claude/claude_desktop_config.json```
 If you use windows:
-```$ <your_text_editor> $env:AppData\Claude\claude_desktop_config.json```
+```<your_text_editor> $env:AppData\Claude\claude_desktop_config.json```
 Paste the following and write to file:
 ```{
   "mcpServers": {
